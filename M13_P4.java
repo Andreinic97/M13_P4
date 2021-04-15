@@ -1,6 +1,7 @@
 import java.util.*;
 import java.util.Scanner;
 public class Hello {
+/*HOLA SOY SUSAN*/
     public static void main(String[] args)
     {
         System.out.println("Enter first and second number:");
@@ -25,6 +26,18 @@ public class Hello {
         case 4:
             System.out.println(div( num1,num2));
             break;
+		case 5:
+                System.out.println(restaDiv());
+                break;
+            case 6:
+                System.out.println(areaCuadrado());
+                break;
+            case 7:
+                System.out.println(areaRec());
+                break;
+            case 8:
+                System.out.println(areaCirculo());
+                break;
             default:
                 System.out.println("Illigal Operation");
 
@@ -48,6 +61,16 @@ public class Hello {
 	
     public static int div(int x, int y){
         int result = x/y;
+        return result;
+	}	
+			
+	public static int restaDiv(int x, int y){
+        int result = x%y;
+        return result;
+    }
+	
+	public static int areaCuadrado(int x){
+        int result = x*x;
         return result;
     }
 }
