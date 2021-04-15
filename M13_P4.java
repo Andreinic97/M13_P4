@@ -2,6 +2,7 @@ import java.util.*;
 import java.util.Scanner;
 public class Hello {
 /*HOLA SOY SUSAN*/
+/*HOLA SOY Reed*/
     public static void main(String[] args)
     {
         System.out.println("Enter first and second number:");
@@ -62,5 +63,25 @@ public class Hello {
     public static int div(int x, int y){
         int result = x/y;
         return result;
+	}	
+			
+	public static int restaDiv(int x, int y){
+        int result = x%y;
+        return result;
     }
+	
+	public static int areaCuadrado(int x){
+        int result = x*x;
+        return result;
+    }
+	
+	public static int areaRec(int x , int y){
+		int result = x*y;
+		return result;
+	}
+	
+	public static areaCirculo(int x){
+		int result = 3.14*(Math.pow(x, 2));
+		return result;
+	}
 }
