@@ -2,6 +2,7 @@ import java.util.*;
 import java.util.Scanner;
 public class Hello {
 /*HOLA SOY SUSAN*/
+/*HOLA SOY Reed*/
     public static void main(String[] args)
     {
         System.out.println("Enter first and second number:");
