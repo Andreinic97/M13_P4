@@ -73,4 +73,14 @@ public class Hello {
         int result = x*x;
         return result;
     }
+	
+	public static int areaRec(int x , int y){
+		int result = x*y;
+		return result;
+	}
+	
+	public static areaCirculo(int x){
+		int result = 3.14*(Math.pow(x, 2));
+		return result;
+	}
 }
