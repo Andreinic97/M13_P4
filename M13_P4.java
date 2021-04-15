@@ -10,7 +10,7 @@ public class Hello {
         num1 = inp.nextInt();
         num2 = inp.nextInt();
         int ans;
-        System.out.println("Enter your selection: 1 for Addition, 2 for substraction 3 for Multiplication and 4 for division:");
+        System.out.println("Enter your selection: 1 for Addition, 2 for substraction 3 for Multiplication 4 for division 5 for divisor 6 for areaCuadrado 7 for areaRectangle 8 for areaCirulo 9 for areaTriangle 10 for raizCuadrada:");
         int choose;
         choose = inp.nextInt();
         switch (choose){
@@ -27,16 +27,22 @@ public class Hello {
             System.out.println(div( num1,num2));
             break;
 		case 5:
-                System.out.println(restaDiv());
+                System.out.println(restaDiv(num1,num2));
                 break;
             case 6:
-                System.out.println(areaCuadrado());
+                System.out.println(areaCuadrado(num1));
                 break;
             case 7:
-                System.out.println(areaRec());
+                System.out.println(areaRec(num1,num2));
                 break;
             case 8:
-                System.out.println(areaCirculo());
+                System.out.println(areaCirculo(num1));
+                break;
+			case 9:
+                System.out.println(areaTriangle(num1,num2));
+                break;
+            case 10:
+                System.out.println(RaizCuadrada(num1));
                 break;
             default:
                 System.out.println("Illigal Operation");
@@ -63,4 +69,24 @@ public class Hello {
         int result = x/y;
         return result;
     }
+		public static int restaDiv(int x, int y){
+        int result = x%y;
+        return result;
+    }
+	
+	public static int areaCuadrado(int x){
+        int result = x*x;
+        return result;
+    }
+	
+	public static int areaRec(int x , int y){
+		int result = x*y;
+		return result;
+	}
+	
+	public static areaCirculo(int x){
+		int result = 3.14*(Math.pow(x, 2));
+		return result;
+	}
+
 }
