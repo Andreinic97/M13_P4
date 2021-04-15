@@ -21,7 +21,7 @@ public class Hello {
         case 2:
             System.out.println(sub( num1,num2));
             break;     
-        /*case 3:
+        case 3:
             System.out.println(mult( num1,num2));
             break;
         case 4:
@@ -33,7 +33,7 @@ public class Hello {
             case 6:
                 System.out.println(areaCuadrado());
                 break;
-         */   case 7:
+         case 7:
                 System.out.println(areaRec());
                 break;
             case 8:
@@ -47,15 +47,15 @@ public class Hello {
 		
 	public static int add(int x, int y){
         int result = x + y;
-      //  return result;
+        return result;
     }
 	
-    /*public static int sub(int x, int y){
+    public static int sub(int x, int y){
         int result = x-y;
         return result;
     }
 	
-	*/public static int mult(int x, int y){
+	public static int mult(int x, int y){
         int result = x*y;
         return result;
     }
