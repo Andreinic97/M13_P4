@@ -25,6 +25,18 @@ public class Hello {
         case 4:
             System.out.println(div( num1,num2));
             break;
+		case 5:
+                System.out.println(restaDiv());
+                break;
+            case 6:
+                System.out.println(areaCuadrado());
+                break;
+            case 7:
+                System.out.println(areaRec());
+                break;
+            case 8:
+                System.out.println(areaCirculo());
+                break;
             default:
                 System.out.println("Illigal Operation");
 
